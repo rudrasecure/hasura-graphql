@@ -7,9 +7,7 @@ services:
   healthCheckPath: /healthz
   envVars:
   - key: HASURA_GRAPHQL_DATABASE_URL
-    fromDatabase:
-      name: hasura
-      property: connectionString
+    value: ""
   - key: HASURA_GRAPHQL_ENABLE_CONSOLE
     value: true
   - key: PORT
