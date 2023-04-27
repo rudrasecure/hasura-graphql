@@ -19,5 +19,3 @@ services:
 # Environment on the Render dashboard.
 #  - key: HASURA_GRAPHQL_ADMIN_SECRET
 #    generateValue: true
-databases:
-- name: hasura
